@@ -1,2 +1,7 @@
 # AutoDust
-Waste management, an issue that has grown exponentially over the past decade. Our project targets the root of this very issue.  'AutoDust', an innovative waste segregation system, aims to tackle the issue of waste segregation from the home level. A system that is modular and adaptable to a variety of situations. The innovation uses basic concepts of Machine Learning, Computer Vision and IoT. The device can be easily attached to any dustbin. The device detects whether the incoming waste material is biodegradable or not.  By doing so, the project attempts to remedy the issue of waste segregation. The possible implementations of such a device are endless.  
+
+A portable waste segregation system, targeting the ever-growing issue of waste segregation and management in today's world.
+
+The system is written purely in the programming language, Python, and uses Object Detection algorithms to detect and indentify the waste place before it, further clasifying it into Biodegradable and Non-biodegradable waste types. Upon classification, AutoDust actively sweeps the waste into the right container (inspired from windsheild wipers).
+
+AutoDust is unique in it's innovation and application. A truly one-of-a-kind product.
