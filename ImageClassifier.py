@@ -57,7 +57,8 @@ class ObjectDetection:
                 text = "{}: {:.4f}".format(self.LABELS[classIDs[i]], confidences[i])
                 cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.9, color, 5)
                 name = text.split(":")[0]
-                data.append(name)
+                accuracy = eval(text.split(":")[1])
+                data.append((name,accuracy))
         self.save(image)
         res = {"image_data":image,
                "detections":data}
